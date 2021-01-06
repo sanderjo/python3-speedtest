@@ -5,8 +5,7 @@ import sys
 import os
 import time
 
-# Download the file from `url`, save it in a temporary directory and get the
-# path to it (e.g. '/tmp/tmpb48zma.txt') in the `file_name` variable:
+# Download a (big) file and report the resulting speed in MB/s
 
 try:
         url = sys.argv[1]
